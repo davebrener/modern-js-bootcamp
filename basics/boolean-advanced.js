@@ -13,12 +13,12 @@ if (isAccountLocked) {
 
 // Challenge
 
-let temp = 45;
+let temp = 4;
 
 if (temp<=32) {
     console.log('It is freezing outside!');
-} else if (temp === 45) {
-    console.log('It is pretty nice');
+} else if (temp >= 110) {
+    console.log('It hot outside');
 } else {
-    console.log('It is hot outside!');
+    console.log('Go for it. It is pretty nice out.');
 }
